@@ -2,7 +2,7 @@
 ==================
 
 ### Installing 
-To install theme wocka, Firstly, follow the instructions on how to install [Hadron](https://github.com/hadronjs/hadron). once you have done this replace the 'mytheme' file inside 'yourHadronApp/themes' with the 'theme-wocka' file.
+To install theme wocka, Firstly, follow the instructions on how to install [Hadron](https://github.com/hadronjs/hadron). once you have done this replace the 'mytheme' file inside 'yourHadronApp/themes' with the 'theme-wocka' file. You can change the navbar background image by changing the url inside of the admin/website setting.
 <br/>
 The home screen. The posts are stored in a fluid display model, this is also very responsive.
 ![Theme-wocka home](http://farm4.staticflickr.com/3919/14540561639_3993620148_b.jpg)
