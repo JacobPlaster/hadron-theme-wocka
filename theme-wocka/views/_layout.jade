@@ -27,10 +27,6 @@ body
           h1.hidden-xs= settings.website.title
     .social-media-header
       if settings.social.twitter.username
-        div(style="text-align: center")
-          a.twitter-follow-button(href="https://twitter.com/#{settings.social.twitter.username}", data-show-count="false",data-lang="en")
-            | Follow @#{settings.social.twitter.username}
-      if settings.social.twitter.username
         a.fa.fa-twitter(href="https://twitter.com/#{settings.social.twitter.username}", target="_blank")
       if settings.social.linkedin.username
         a.fa.fa-linkedin(href="https://www.linkedin.com/in/#{settings.social.linkedin.username}", target="_blank")
