@@ -1,0 +1,57 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  block head
+
+  //INJECT:styles:default
+  link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lato:300,400,700')
+  link(rel='stylesheet', href='/public/lib/font-awesome/css/font-awesome.css')
+  link(rel='stylesheet', href='/public/styles/main.css')
+  //END INJECT
+  
+  //INJECT:scripts:default
+  script(src='/public/lib/jquery/jquery.js')
+  //END INJECT
+body
+  .background-img.hidden-xs 
+    img(src="#{settings.website.headline}")
+  .navbar.navbar-default.navbar-static-top
+    .navbar-inner
+      .container
+        a(href='/#')
+          .center-block.hidden-xs 
+            img(src="public/img/brand_circle.png")
+    .navbar-header
+        a(href="/#")
+          h1.hidden-xs= settings.website.title
+    .social-media-header
+      if settings.social.twitter.username
+        div(style="text-align: center")
+          a.twitter-follow-button(href="https://twitter.com/#{settings.social.twitter.username}", data-show-count="false",data-lang="en")
+            | Follow @#{settings.social.twitter.username}
+      if settings.social.twitter.username
+        a.fa.fa-twitter(href="https://twitter.com/#{settings.social.twitter.username}", target="_blank")
+      if settings.social.linkedin.username
+        a.fa.fa-linkedin(href="https://www.linkedin.com/in/#{settings.social.linkedin.username}", target="_blank")
+      if settings.social.github.username
+        a.fa.fa-github(href="https://github.com/#{settings.social.github.username}", target="_blank")
+        include partials/mainMenu
+      .pull-right
+        a(href="https://www.npmjs.org/package/hadron") Hadron
+
+  .page-content
+    block main
+
+  block footer
+
+  //INJECT:viewContributions:main-layout-body-footer
+  include plugins/googleanalytics/_layout.jade
+  //END INJECT
+  
+  script.
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+    });
+    

@@ -1,0 +1,7 @@
+include ../mixins/menuItem
+
+each item in settings.menu
+	+menuItem(item.link, 'none', item.label, true)
+if auth.user
+	+menuItem('/admin', 'none', 'Admin', true)
+	+menuItem('/auth/logout', 'none', 'Logout', true)

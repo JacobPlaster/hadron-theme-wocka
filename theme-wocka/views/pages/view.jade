@@ -1,0 +1,21 @@
+extends ../_layout
+
+block head
+  title #{page.title} - #{settings.website.title}
+
+block main
+  article
+    .article
+      .container
+        if (page.title != 'portfolio')
+          .article-header
+            h1= page.title
+            .subheading
+    
+        .article-content!= page.getRenderedContent()
+        //INJECT:viewContributions:page-view-article-footer
+        //END INJECT
+
+block footer
+  //INJECT:viewContributions:page-view-footer
+  //END INJECT
