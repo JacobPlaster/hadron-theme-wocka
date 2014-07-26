@@ -20,7 +20,7 @@ Install theme-wocka
 ```bash
 $ npm install hadron-theme-wocka
 ```
-Grab dependancies and build:
+Install dependancies and build:
 ```bash
 $ gulp install
 $ gulp build
