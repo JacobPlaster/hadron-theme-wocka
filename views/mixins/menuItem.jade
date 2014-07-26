@@ -1,0 +1,9 @@
+mixin menuItem(link, iconClass, label, isHome)
+	if(isHome)
+		a(href='#{link}')
+			| #{label} 
+	else
+		li
+			a(href='#{link}')
+				span(class="#{iconClass}")
+				|	#{label} 
