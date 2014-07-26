@@ -35,16 +35,16 @@ Check out [hadron](https://github.com/hadronjs/hadron-openshift-seed) for instru
 <br/>
 ### Take a look!
 The home screen. The posts are stored in a fluid display model, this is also very responsive.
-![Theme-wocka home](http://farm4.staticflickr.com/3919/14540561639_3993620148_b.jpg)
+![Theme-wocka home](http://i1379.photobucket.com/albums/ah156/jacobplaster1995/14540561639_3993620148_b_zps13ab7cc0.jpg)
 <br/>
 #### Home screen mobile view:
-![Theme-wocka home-mobile](http://farm4.staticflickr.com/3908/14724018191_dc6314be91_b.jpg)
+![Theme-wocka home-mobile](http://i1379.photobucket.com/albums/ah156/jacobplaster1995/14724018191_dc6314be91_b_zpsf619a110.jpg)
 <br/>
 #### The post view:
-![Theme-wocka post-view](http://farm4.staticflickr.com/3896/14726901602_519b68c4c4_b.jpg)
+![Theme-wocka post-view](http://i1379.photobucket.com/albums/ah156/jacobplaster1995/14726901602_519b68c4c4_b_zps7128ac03.jpg)
 <br/>
 #### Admin page view:
-![Theme-wocka admin-page](http://farm3.staticflickr.com/2910/14726902502_b3747dfa97_b.jpg)
+![Theme-wocka admin-page](http://i1379.photobucket.com/albums/ah156/jacobplaster1995/14726902502_b3747dfa97_b1_zpsbf11f668.jpg)
 <br/>
 <br/>
 ##### If you want to see a functioning version, visit my [website](jacobplaster.net)
