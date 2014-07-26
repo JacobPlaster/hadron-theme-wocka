@@ -12,6 +12,10 @@ Grab hadron:
 $ git remote add hadron-seed -m master https://github.com/hadronjs/hadron-seed.git
 $ git pull -s recursive -X theirs hadron-seed master
 ```
+Grab plugins (Disqus, google analytics ect..):
+```bash
+$ npm install
+```
 Install theme-wocka
 ```bash
 $ npm install hadron-theme-wocka
@@ -21,15 +25,15 @@ Grab dependancies and build:
 $ gulp install
 $ gulp build
 ```
-Commit & run:
+Lastly, run:
 ```bash
-$ git add -A
-$ git commit -m "My first hadron-wocka blog"
 $ node app.js
 ```
-Navigate to localhost:3000 to witness the beauty.
+Navigate to localhost:3000 to witness the beauty. *Note:* Make sure that you navigate to tha admin panel and change the navbar image background, default is plain black.
 Check out [hadron](https://github.com/hadronjs/hadron-openshift-seed) for instructions on how to release hadron in production.
 <br/>
+<br/>
+### Take a look!
 The home screen. The posts are stored in a fluid display model, this is also very responsive.
 ![Theme-wocka home](http://farm4.staticflickr.com/3919/14540561639_3993620148_b.jpg)
 <br/>
