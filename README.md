@@ -16,7 +16,7 @@ Grab plugins (Disqus, google analytics ect..):
 ```bash
 $ npm install
 ```
-Install theme-wocka
+Install theme-wocka:
 ```bash
 $ npm install hadron-theme-wocka
 ```
