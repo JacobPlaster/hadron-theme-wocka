@@ -1,8 +1,34 @@
 [Hadron](https://github.com/hadronjs/hadron)-theme-wocka
 ==================
 
-### Installing 
-To install theme wocka, Firstly, follow the instructions on how to install [Hadron](https://github.com/hadronjs/hadron). once you have done this replace the 'mytheme' file inside 'yourHadronApp/themes' with the 'theme-wocka' file. You can change the navbar background image by changing the url inside of the admin/website setting.
+### Quick Install
+Create app, 'hadorn-wocka' is an example:
+```bash
+$ mkdir hadron-wocka && cd hadron-wocka
+$ git init
+```
+Grab hadron:
+```bash
+$ git remote add hadron-seed -m master https://github.com/hadronjs/hadron-seed.git
+$ git pull -s recursive -X theirs hadron-seed master
+```
+Install theme-wocka
+```bash
+$ npm install hadron-theme-wocka
+```
+Grab dependancies and build:
+```bash
+$ gulp install
+$ gulp build
+```
+Commit & run:
+```bash
+$ git add -A
+$ git commit -m "My first hadron-wocka blog"
+$ node app.js
+```
+Navigate to localhost:3000 to witness the beauty.
+Check out [hadron](https://github.com/hadronjs/hadron-openshift-seed) for instructions on how to release hadron in production.
 <br/>
 The home screen. The posts are stored in a fluid display model, this is also very responsive.
 ![Theme-wocka home](http://farm4.staticflickr.com/3919/14540561639_3993620148_b.jpg)
