@@ -1,5 +1,8 @@
 {
-  "subparticles": [
-    "lib"
-  ]
+    "name": "hadron-theme-wocka",
+    "exclude": [
+    "assets/**", "views/**"
+    ],
+    "overrides":[
+    ]
 }
