@@ -47,5 +47,5 @@ The home screen. The posts are stored in a fluid display model, this is also ver
 ![Theme-wocka admin-page](http://i1379.photobucket.com/albums/ah156/jacobplaster1995/14726902502_b3747dfa97_b1_zpsbf11f668.jpg)
 <br/>
 <br/>
-##### If you want to see a functioning version, visit my [website](jacobplaster.net)
+##### If you want to see a functioning version, visit my [website](www.jacobplaster.net)
 Let me know if you have installed my theme on your website, I would love to see it!
